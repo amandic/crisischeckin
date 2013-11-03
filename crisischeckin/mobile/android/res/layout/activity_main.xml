@@ -25,14 +25,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0.50"
                 android:layout_width="0dp"
-                android:text="All" />
+                android:text="@string/btn_task_all" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.50"
-                android:text="Committed" />
+                android:text="@string/btn_task_committed" />
         </LinearLayout>
 
         <ListView
