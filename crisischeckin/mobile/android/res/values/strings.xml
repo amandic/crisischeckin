@@ -4,9 +4,16 @@
     <string name="app_name">Crisis Checkin</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="register_here"><b>Register</b> if you don\'t have an account.</string>
+    <string name="username">User name</string>
+    <string name="password">Password</string>
+    <string name="edit_username"></string>
+    <string name="edit_password"></string>
+    <string name="menu_login">Login</string>
     
     <!-- button labels -->
     <string name="btn_task_all">All</string>
     <string name="btn_task_committed">Committed</string>
+    <string name="btn_login"><b>Login</b></string>
 
 </resources>
