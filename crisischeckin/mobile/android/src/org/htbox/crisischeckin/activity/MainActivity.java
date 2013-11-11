@@ -1,8 +1,11 @@
-package org.htbox.crisischeckin;
+package org.htbox.crisischeckin.activity;
 
+import org.htbox.crisischeckin.R;
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.MenuItem;
 
 public class MainActivity extends Activity {
 
@@ -19,4 +22,19 @@ public class MainActivity extends Activity {
         return true;
     }
     
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+    	switch (item.getItemId()) {
+    	case R.id.menu_login:
+    		myLogin();
+    		return true;
+    	default:
+    		return super.onOptionsItemSelected(item);
+    	}
+    }
+    
+    protected void myLogin() {
+        Intent myIntent = new Intent(this, LoginActivity.class);
+        startActivity(myIntent);   
+    }
 }

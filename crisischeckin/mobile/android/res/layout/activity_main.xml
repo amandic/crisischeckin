@@ -25,14 +25,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0.50"
                 android:layout_width="0dp"
-                android:text="All" />
+                android:text="@string/btn_task_all" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.50"
-                android:text="Committed" />
+                android:text="@string/btn_task_committed" />
         </LinearLayout>
 
         <ListView
@@ -43,27 +43,6 @@
            >
 
         </ListView>
-
-        <LinearLayout
-            android:id="@+id/LinearLayout01"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="1.0" >
-
-            <Button
-                android:id="@+id/Button01"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.50"
-                android:layout_width="0dp"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/Button02"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.50"
-                android:text="Button" />
-        </LinearLayout>
 
     </LinearLayout>
 
