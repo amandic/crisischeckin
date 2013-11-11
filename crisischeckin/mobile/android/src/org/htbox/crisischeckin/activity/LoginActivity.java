@@ -4,6 +4,7 @@ import org.htbox.crisischeckin.R;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -34,8 +35,11 @@ public class LoginActivity extends Activity {
 					if((edit_username.getText().toString()).equals(edit_password.getText().toString())) {
 				Toast.makeText(LoginActivity.this, "Login Successful",Toast.LENGTH_LONG).show();
 			} else {
-				Toast.makeText(LoginActivity.this, "Invalid Login",Toast.LENGTH_LONG).show();
+				Toast toast = Toast.makeText(LoginActivity.this, "Invalid Login",Toast.LENGTH_LONG);
+				toast.setGravity(Gravity.TOP|Gravity.RIGHT, 0, 6);
+				toast.show();
 			}
+					
 				}
 			});
 			
